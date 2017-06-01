@@ -1480,7 +1480,7 @@ table {
 
 .pe-7s-healthwise:before {
   content: '';
-  background: url(https://cdn.shopify.com/s/files/1/0917/7258/t/13/assets/logo.png?4872162800362451733);
+  background: url("http://jimmycouch.github.io/images/healthwise-logo.png");
   background-size: cover;
   position: absolute;
   width: 160px;
@@ -1491,7 +1491,7 @@ table {
 
 .pe-7s-brim:before {
   content: '';
-  background: url("{{ site.baseurl }}/images/brim-logo.png");
+  background: url("http://jimmycouch.github.io/images/brim-logo.png");
   background-size: cover;
   position: absolute;
   width: 160px;
@@ -1502,7 +1502,7 @@ table {
 
 .pe-7s-technoroasting:before {
   content: '';
-  background: url(http://localhost:3000/images/technoroasting-logo.png);
+  background: url("http://jimmycouch.github.io/images/technoroasting-logo.png");
   background-size: cover;
   position: absolute;
   width: 159px;
