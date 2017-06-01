@@ -13,7 +13,7 @@ exclude: ["node_modules", "gulpfile.js", "package.json", "README.md"]
 #######################################################
 
 # This is your site title
-title: Sera - OnePage Multi-Purpose Theme
+title: WindyCityCoffee
 # Website language
 lang: en-US
 # Header Title
@@ -28,7 +28,7 @@ headter-tagline: Forging the way
 # Focus Buttons
 header-focus-button:
   title: Learn More
-  url: #about
+  url: '#about'
 
 #
 # If your website is placed in a separate folder on your server please modify
@@ -50,7 +50,6 @@ email: your_email@example.com
 
 # Offer Banner Link
 # Default link is a link to all Sera OnePage products
-banner-link: https://themeforest.net/collections/6069390-sera
 
 ####################################
 ######  Global Social Links   ######
@@ -114,7 +113,7 @@ about-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aene
 #####################################
 #############  Features  ############
 #####################################
-features-title: Features
+features-title: Our Partners
 features-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante.
 
 #
@@ -123,19 +122,20 @@ features-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. A
 features:
 
 # Feature
-- title: Clean & Unique Design
+- title: HealthWise Coffee
   description: Maecenas sed laoreet urna. Praesent eget tristique tortor. Suspendisse consequat sed turpis in mattis.
-  icon: pe-7s-vector
+  # icon: pe-7s-vector
+  icon: pe-7s-healthwise
 
 # Feature
-- title: Professional Support
+- title: Brim Coffee
   description: Maecenas sed laoreet urna. Praesent eget tristique tortor. Suspendisse consequat sed turpis in mattis.
-  icon: pe-7s-help2
+  icon: pe-7s-brim
 
 # Feature
-- title: Pixel Perfect
+- title: TechnoRoasting
   description: Maecenas sed laoreet urna. Praesent eget tristique tortor. Suspendisse consequat sed turpis in mattis.
-  icon: pe-7s-airplay
+  icon: pe-7s-technoroasting
 
 
 #####################################
@@ -208,7 +208,7 @@ portfolio:
 #####################################
 ##########  Core Features  ##########
 #####################################
-core-title: Core Features
+core-title: About our Coffee
 core-description: Duis at odio vitae ex gravida volutpat. Nulla finibus aliquet diam ut eleifend. Mauris consequat interdum quam. Mauris dui sapien, efficitur et cursus id, molestie fringilla turpis aliquet diam ut eleifend.
 
 #
@@ -217,24 +217,24 @@ core-description: Duis at odio vitae ex gravida volutpat. Nulla finibus aliquet 
 core-features-left:
 
 # Feature
-- name: Creative
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-light
-
-# Feature
-- name: Minimalism
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-drop
-
-# Feature
-- name: Clean Coding
+- name: Gourmet
   description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
   icon: pe-7s-coffee
 
 # Feature
-- name: Friendly
+- name: All Natural
   description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-smile
+  icon: pe-7s-leaf
+
+# # Feature
+# - name: Clean Coding
+#   description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+#   icon: pe-7s-coffee
+
+# # Feature
+# - name: Friendly
+#   description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+#   icon: pe-7s-smile
 
 #
 # Core Features Right
@@ -242,24 +242,24 @@ core-features-left:
 core-features-right:
 
 # Feature
-- name: Branding
+- name: Fair-Trade
   description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-wine
+  icon: pe-7s-global
 
 # Feature
-- name: Web Design
+- name: Award Winning
   description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-monitor
+  icon: pe-7s-medal
 
-# Feature
-- name: Graphic Design
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-crop
+# # Feature
+# - name: Graphic Design
+#   description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+#   icon: pe-7s-crop
 
-# Feature
-- name: Photography
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
-  icon: pe-7s-camera
+# # Feature
+# - name: Photography
+#   description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+#   icon: pe-7s-camera
 
 
 #####################################
