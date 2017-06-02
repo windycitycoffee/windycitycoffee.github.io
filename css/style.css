@@ -1480,7 +1480,7 @@ table {
 
 .pe-7s-healthwise:before {
   content: '';
-  background: url("http://jimmycouch.github.io/images/healthwise-logo.png");
+  background: url("/images/healthwise-logo.png");
   background-size: cover;
   position: absolute;
   width: 160px;
@@ -1491,7 +1491,7 @@ table {
 
 .pe-7s-brim:before {
   content: '';
-  background: url("http://jimmycouch.github.io/images/brim-logo.png");
+  background: url("/images/brim-logo.png");
   background-size: cover;
   position: absolute;
   width: 160px;
@@ -1502,7 +1502,7 @@ table {
 
 .pe-7s-technoroasting:before {
   content: '';
-  background: url("http://jimmycouch.github.io/images/technoroasting-logo.png");
+  background: url("/images/technoroasting-logo.png");
   background-size: cover;
   position: absolute;
   width: 159px;
@@ -2668,7 +2668,7 @@ input, textarea, button {
   height: auto;
   font-size: 1rem;
   font-family: "Lato";
-  padding: 15px;
+  padding: 9px;
   outline: 0;
   color: #5e5e5e;
   border: 1px solid #bdc3c7;
@@ -3201,7 +3201,7 @@ header.site-header .site-navigation-bar {
 header.site-header .site-navigation-bar .logo img {
   display: block;
   float: left;
-  width: 100%;
+  width: 90%;
 }
 
 header.site-header .site-navigation-bar .navigation-bar nav.nav-menu {
@@ -4137,7 +4137,7 @@ section.parallax-features-section header.section-header hr {
 }
 
 section.parallax-features-section .section-features {
-  margin-top: 80px;
+  margin-top: 40px;
 }
 
 section.parallax-features-section .section-features .phone img {
@@ -4181,7 +4181,7 @@ section.parallax-features-section .section-features .feature .text-wrap h3 {
 }
 
 section.parallax-features-section .section-features .feature .text-wrap p {
-  color: #bdc3c7;
+  color: #fff;
   font-size: 0.875rem;
 }
 
@@ -4715,10 +4715,6 @@ section.team-section .team-members-container .team-member:hover {
           box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.52);
 }
 
-section.team-section .team-members-container .team-member:hover .img-wrapper:before, section.team-section .team-members-container .team-member:hover .img-wrapper:after {
-  opacity: 1;
-}
-
 /**
  *
  *  Prices Section Style
@@ -5005,4 +5001,84 @@ footer.site-footer .footer-copyright {
 
 footer.site-footer .footer-copyright .footer-text {
   width: 100%;
+}
+
+.solution-features .text-left .icon-wrap {
+  margin-right: 30px;
+  float: left;
+}
+
+.solution-features .text-right .icon-wrap {
+  margin-left: 30px;
+  float: right;
+}
+
+.solution-features .feature {
+  display: block;
+  width: 100%;
+  margin-bottom: 30px;
+  padding-bottom: 40px;
+}
+
+.solution-features .feature .text-wrap {
+  display: inline-block;
+  width: -webkit-calc(100% - 100px);
+  width: calc(100% - 100px);
+}
+
+.solution-features .feature .text-wrap h3 {
+  color: #21c2f8;
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+.solution-features .feature .text-wrap p {
+  color: #fff;
+  font-size: 1.0rem;
+}
+
+.solution-features .feature .icon-wrap {
+  display: block;
+}
+
+.solution-features .feature .icon-wrap .circle {
+  width: 70px;
+  height: 70px;
+  font-size: 2rem;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.solution-features .feature, .solution-features .feature p, .solution-features .feature .icon-wrap .circle {
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.solution-features .feature:hover p {
+  color: #fff;
+}
+
+.solution-features .feature:hover .icon-wrap .circle {
+  background-color: #21c2f8;
+}
+
+@media (max-width: 991px) {
+  .solution-features .phone {
+    display: none;
+  }
+  .solution-features .text-left {
+    margin-top: 10%;
+  }
+  .solution-features .text-left .icon-wrap {
+    margin-right: 30px;
+    float: left;
+  }
+  .solution-features .text-right {
+    margin-top: 10%;
+    text-align: left;
+  }
+  .solution-features .text-right .icon-wrap {
+    margin-left: 0;
+    margin-right: 30px;
+    float: left;
+  }
 }

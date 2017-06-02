@@ -1,0 +1,49 @@
+<!-- Parallax Section -->
+<section class="site-section parallax-features-section parallax" id="solutions" data-scrollax-parent="true">
+
+  <!-- Parallax Image -->
+  <div class="cover" data-scrollax="properties: { 'translateY': '48%' }">
+    <img src="{{ site.baseurl }}/images/blue-blurred-background.jpg" alt="Parallax Features" />
+  </div>
+
+  <div class="container">
+
+    <!-- Section Heading -->
+    <div class="row text-center">
+
+      <!-- Section Header -->
+      <header class="col-md-8 col-md-push-2 col-sm-12 section-header">
+        <h2>{{ site.solutions-title }}</h2>
+        <hr class="normal">
+      </header>
+    </div>
+
+    <!-- Section Features -->
+    <div class="row solution-features">
+
+      <div class="col-md-10 col-md-push-1 col-sm-push-0 col-sm-6 text-left">
+
+        {% for feature in site.solutions-features %}
+
+        <div class="feature">
+        <div class="icon-wrap">
+          <div class="circle parent">
+            <i class="{{ feature.icon }} child-center"></i>
+          </div>
+        </div>
+          <div class="text-wrap">
+            <h3>{{ feature.name }}</h3>
+            <p>{{ feature.description }}</p>
+          </div>
+        </div>
+
+        {% endfor %}
+
+      </div>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>

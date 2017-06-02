@@ -46,7 +46,7 @@ baseurl:
 # IMPORTANT: you can modify contact form from this static template, but now works contact form works with a free external server
 # To configure this contact form, first please send a fictive email afeter you enter below your email and verify that :)
 #
-email: your_email@example.com
+email: jimmy@windycitycoffee.com
 
 # Offer Banner Link
 # Default link is a link to all Sera OnePage products
@@ -54,31 +54,13 @@ email: your_email@example.com
 ####################################
 ######  Global Social Links   ######
 ####################################
-youtube: '#'
-pinterest: '#'
-facebook: '#'
-twitter: '#'
-google-plus: '#'
-vimeo: '#'
+linkedIn: "#"
+instagram: "#"
 
 #########################
 ######   Widgets   ######
 #########################
 
-#
-# About Blog Author Widget
-#
-about-widget:
-  author-avatar: avatar-02.jpg
-  author-name: John Doe
-  author-tagline: Blog Author
-  author-info: Cum sociis que penatibus et magnis dis parturient montes lorem, nascetur ridiculus mus. Donec quam felis, ultricies nec.
-  author-social-links:
-    youtube: '#'
-    pinterest: '#'
-    facebook: '#'
-    twitter: '#'
-    google-plus: '#'
 
 # Google Map JS api
 # This is my api for this template
@@ -107,7 +89,7 @@ mailchimp:
 #############   About   #############
 #####################################
 about-title: Welcome to Windy City Coffee
-about-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
+about-description: Based in the heart of Chicago, we're a startup focused on bringing healthy coffee products to customers across the world. With years of experience establishing relationships with coffee farmers, roasters, and manufacturers, we have perfected the supply chain management of building successful coffee brands.
 
 
 #####################################
@@ -123,93 +105,26 @@ features:
 
 # Feature
 - title: HealthWise Coffee
-  description: Maecenas sed laoreet urna. Praesent eget tristique tortor. Suspendisse consequat sed turpis in mattis.
+  description: The original Low-Acid Coffee. A family owned company based out of the Chicago suburbs, HealthWise has paved the way for WindyCity Coffee's success.
   # icon: pe-7s-vector
   icon: pe-7s-healthwise
 
 # Feature
 - title: Brim Coffee
-  description: Maecenas sed laoreet urna. Praesent eget tristique tortor. Suspendisse consequat sed turpis in mattis.
+  description: A classic! Brim coffee was the number 1 coffee in the 60s, announcing it's comeback, WindyCity Coffee has partnered with Brim to reinvigorate this timeless brand.
   icon: pe-7s-brim
 
 # Feature
-- title: TechnoRoasting
-  description: Maecenas sed laoreet urna. Praesent eget tristique tortor. Suspendisse consequat sed turpis in mattis.
+- title: TechnoRoasting™
+  description: The <i>Secret Formula</i> for our coffee. The sole reason we can produce such high quality coffee with so many health benefits.
   icon: pe-7s-technoroasting
-
-
-#####################################
-############  Portfolio  ############
-#####################################
-portfolio-title: Portfolio
-portfolio-description: Maecenas tempus nec mi et placerat. Duis at odio vitae ex gravida volutpat. Nulla finibus aliquet diam ut eleifend. Mauris consequat interdum quam. Mauris dui sapien, efficitur et cursus id, molestie fringilla turpis.
-
-#
-# Portfolio Grid
-#
-portfolio-categories: [Websites, Logo, Graphic Design, Development, Video, Photography]
-portfolio:
-
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Websites, Graphic Design]
-  image: img-01.jpg
-  url: '#'
-
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Graphic Design, Logo, Websites]
-  image: img-02.jpg
-  url: '#'
-
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Graphic Design, Logo, Photography]
-  image: img-03.jpg
-  url: '#'
-
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Websites, Video, Photography]
-  image: img-04.jpg
-  url: '#'
-
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Development, Logo]
-  image: img-05.jpg
-  url: '#'
-
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Development, Video]
-  image: img-06.jpg
-  url: '#'
-
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Websites, Graphic Design]
-  image: img-07.jpg
-  url: '#'
-
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Websites , Video]
-  image: img-08.jpg
-  url: '#'
-
-# Portfolio Item
-- title: S<span class="thin">era</span> Style
-  categories: [Photography, Logo]
-  image: img-09.jpg
-  url: '#'
 
 
 #####################################
 ##########  Core Features  ##########
 #####################################
-core-title: About our Coffee
-core-description: Duis at odio vitae ex gravida volutpat. Nulla finibus aliquet diam ut eleifend. Mauris consequat interdum quam. Mauris dui sapien, efficitur et cursus id, molestie fringilla turpis aliquet diam ut eleifend.
+core-title: What makes us different
+core-description: Powered by TechnoRoasting™, our brands have the lowest acid, and the highest vitamin and mineral count compared to any coffee on the market. The FDA approved process results in an all-natural, nutrient boosted cup of delicious coffees. 
 
 #
 # Core Features Left
@@ -217,13 +132,13 @@ core-description: Duis at odio vitae ex gravida volutpat. Nulla finibus aliquet 
 core-features-left:
 
 # Feature
-- name: Gourmet
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+- name: Vitamin Rich
+  description: The highest vitamins and minerals in any coffee.
   icon: pe-7s-coffee
 
 # Feature
 - name: All Natural
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+  description: The FDA approved roasting process results in a purely unadulterated coffee. 
   icon: pe-7s-leaf
 
 # # Feature
@@ -242,13 +157,13 @@ core-features-left:
 core-features-right:
 
 # Feature
-- name: Fair-Trade
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+- name: High Quality
+  description: We source only the finest Arabica coffee beans from Colombia.
   icon: pe-7s-global
 
 # Feature
 - name: Award Winning
-  description: Lorem ipsum dolor sit amet, consectetuer adipiscing diam.
+  description: We have been rated the number 1 Low Acid Swiss Water decaf in the U.S.
   icon: pe-7s-medal
 
 # # Feature
@@ -263,61 +178,42 @@ core-features-right:
 
 
 #####################################
-########### Testimonials ############
+########### Solutions ############
 #####################################
-testimonials-title: Testimonials
-testimonials-description: Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi.
+
+solutions-title: Our Solutions
+solutions-description: Duis at odio vitae ex gravida volutpat. Nulla finibus aliquet diam ut eleifend. Mauris consequat interdum quam. Mauris dui sapien, efficitur et cursus id, molestie fringilla turpis aliquet diam ut eleifend.
 
 #
-# Testimonials
+# solutions Features Left
 #
-testimonials:
+solutions-features:
 
-# Client
-- name: Johnatan Doe
-  url: http://themeforest.net
-  url-text: ThemeForest.net
-  avatar: avatar-01.jpg
-  cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
-  logo-img: themeforest.png
+# Feature
+- name: Distribution
+  description: We specialize in distributing and managing your coffee brand. Everything from E-commerce, and order fufillment. Ensuring your product grows from conception and on the shelves.
+  icon: pe-7s-refresh
 
-# Client
-- name: Adam Smith
-  url: http://codecanyon.net
-  url-text: CodeCanyon.net
-  avatar: avatar-02.jpg
-  cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
-  logo-img: codecanyon.png
+# Feature
+- name: Roasting
+  description: The possibilities are endless for coffee choices. We can provide a multitude of cost effective and delicious roasts of coffees grown all across the globe.
+  icon: pe-7s-coffee
 
-# Client
-- name: Irene Warner
-  url: http://videohive.net
-  url-text: VideoHive.net
-  avatar: avatar-03.jpg
-  cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
-  logo-img: videohive.png
+# Feature
+- name: Organic, Fair-Trade Coffees
+  description: We can produce the highest quality coffees available. Our specialty brand, HealthWise, is one of the highest quality coffees available, truley 100% Arabic Colombian Supremo.
+  icon: pe-7s-leaf
 
-# Client
-- name: Richard Ryan
-  url: http://audiojungle.net
-  url-text: AudioJungle.net
-  avatar: avatar-04.jpg
-  cite: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer varius adipiscing lectus, eu ornare lectus semper in. Aenean at tincidunt sem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed.
-  logo-img: audiojungle.png
-
-
-#####################################
-############# Our Blog ##############
-#####################################
-blog-title: Our Blog
-blog-description: Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
-
+# Feature
+- name: Private Labeling
+  description: We help you every step of the way in development of your coffee brand. You provide the idea, we provide the coffee.
+  icon: pe-7s-star
 
 #####################################
 ############### Team ################
 #####################################
-team-title: Meet Our Team
-team-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
+team-title: Who We Are
+team-description: With years of experience growing HealthWise, we have branched off into WindyCity Coffee with a goal of expanding our line of coffee products. Our goal is to bring the power of TechnoRoasting™ to the shelves of consumers. 
 
 #
 # Team Members
@@ -326,67 +222,26 @@ team:
 
 # Team Member
 - name: Jimmy Couch
-  tagline: Owner
+  tagline: Founder
   avatar: jimmy-puppy.jpg
   # avatar: jimmy.png
 
   # Social Links
-  youtube: '#'
-  pinterest: '#'
-  facebook: '#'
-  twitter: '#'
-  google-plus: '#'
-  vimeo: '#'
-
-
-#####################################
-########## Pricing Tables ###########
-#####################################
-pricing-title: Pricing Tables
-pricing-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat vitae volutpat sed, suscipit et nisi. Nulla a tellus at turpis gravida congue non sed nisl. Pellentesque scelerisque eu neque et tincidunt.
-
-#
-# Plan Personal
-#
-plan-personal-price: $99
-plan-personal-offer-1-title: 01 PSD Pack
-plan-personal-offer-1-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
-plan-personal-offer-2-title: 100 Support Tickets
-plan-personal-offer-2-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
-plan-personal-url: '#'
-
-#
-# Plan Business
-#
-plan-business-price: $499
-plan-business-offer-1-title: 05 PSD Pack
-plan-business-offer-1-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
-plan-business-offer-2-title: 1000 Support Tickets
-plan-business-offer-2-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
-plan-business-url: '#'
-
-#
-# Plan Ultimate
-#
-plan-ultimate-price: $999
-plan-ultimate-offer-1-title: 10 PSD Pack
-plan-ultimate-offer-1-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
-plan-ultimate-offer-2-title: Support Unlimited
-plan-ultimate-offer-2-info: Mauris gravida fringilla est. Proin sodales sed erat et cursus. Mauris quis posuere enim.
-plan-ultimate-url: '#'
+  linkedIn: 'https://www.linkedin.com/in/jimmy-couch-15aaa954/'
+  instagram: "https://www.instagram.com/healthwisegourmetcoffees/"
 
 
 #####################################
 ############   Contact   ############
 #####################################
-contact-title: Contact Us
-contact-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat.
+contact-title: Want to learn more?
+contact-description: We'll be happy to help answer any questions you may have on our products, and the services we provide. 
 
 
 #####################################
 #############   Footer   ############
 #####################################
-footer-description: Nulla a tellus at turpis gravida congue non interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi id ornare ante. Cras odio nibh, volutpat.
+footer-description: Made with ❤️ in Chicago
 footer-copyright-text: WindyCityCoffee
 footer-copyright-url: http://www.windycitycoffee.com
 footer-copyright-year: 2017
